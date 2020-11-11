@@ -12,7 +12,7 @@ class LiveStudent extends React.Component {
       firstName, lastName, image,
     } = this.props.student;
     return (
-      <div className='live-student-cards col-3'>
+      <div className='live-student-cards col-2 m-2'>
         <Card>
           <CardImg top width='100%' size='sm' src={image} alt='Card image cap' />
           <CardBody>

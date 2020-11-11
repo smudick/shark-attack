@@ -9,7 +9,7 @@ class SharkTank extends React.Component {
 
   render() {
     return (
-      <div className='student-card'>
+      <div className='student-card d-flex flex-wrap'>
         {this.state.students.map((student) => (
           <LiveStudent key={student.id} student={student} />
         ))}
