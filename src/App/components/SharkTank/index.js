@@ -4,7 +4,7 @@ import LiveStudent from '../LiveStudent';
 class SharkTank extends React.Component {
   render() {
     return (
-      <div className='student-card d-flex flex-wrap'>
+      <div className='tank d-flex flex-wrap'>
         {this.props.liveStudents.map((student) => (
           <LiveStudent key={student.id} student={student} />
         ))}

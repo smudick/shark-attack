@@ -35,7 +35,7 @@ class App extends React.Component {
   render() {
     return (
       <div className='App'>
-        <button onClick={this.numberGenerator}>Shark Attack</button>
+        <button className='btn btn-danger m-2 p-3 attack'onClick={this.numberGenerator}>SHARK ATTACK!!!</button>
         <SharkTank liveStudents={this.state.liveStudents} />
         <Graveyard deadStudents={this.state.deadStudents} />
       </div>
